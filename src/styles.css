@@ -25,6 +25,12 @@
     src: url(./assets/fonts/manrope/Manrope-Light.ttf);
 }
 
+body{
+    background-color: #0F0F0F;
+    color: var(--white);
+    margin: 0%;
+}
+
 :root{
     --white: #FFFFFF;
     --black: #000000;

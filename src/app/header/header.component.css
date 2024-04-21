@@ -6,4 +6,29 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    height: 72px;
+    margin-top: 1%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    background-color: var(--black-06);
+    border: 3px solid var(--black-10);
+    height: 80%;
+}
+
+a{
+    text-decoration: none;
+    font-family: Manrope-Regular;
+    color: var(--grey-75);
+}
+
+button{
+    background: none;
+    padding: 0%;
+    border: none;
 }

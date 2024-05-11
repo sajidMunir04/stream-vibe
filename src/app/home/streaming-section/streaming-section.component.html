@@ -1,10 +1,13 @@
-<div>
+<div class="container">
     <div>
-        <h2>We Provide you streaming experience across various devices.</h2>
-        <p>With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to 
-            be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.</p>
+        <app-section-header [headerData]="headerData"></app-section-header>
     </div>
-    <div>
-        
+    <div class="contentSection">
+        <app-streaming-info-card class="card" [cardData]="cardDataOne"></app-streaming-info-card>
+        <app-streaming-info-card class="card" [cardData]="cardDataTwo"></app-streaming-info-card>
+        <app-streaming-info-card class="card" [cardData]="cardDataThree"></app-streaming-info-card>
+        <app-streaming-info-card class="card" [cardData]="cardDataFour"></app-streaming-info-card>
+        <app-streaming-info-card class="card" [cardData]="cardDataFive"></app-streaming-info-card>
+        <app-streaming-info-card class="card" [cardData]="cardDataSix"></app-streaming-info-card>
     </div>
 </div>

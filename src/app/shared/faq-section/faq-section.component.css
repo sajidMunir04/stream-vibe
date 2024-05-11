@@ -1,0 +1,14 @@
+.container{
+    padding: 0% var(--side-padding);
+}
+
+.contentSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questionSection {
+    width: 48%;
+}

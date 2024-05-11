@@ -1,0 +1,14 @@
+.container{
+    padding: 0% var(--side-padding);
+}
+
+.priceCard{
+    width: 30%;
+}
+
+.contentSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

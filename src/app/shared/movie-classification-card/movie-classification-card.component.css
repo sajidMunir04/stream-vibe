@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    padding: 4%;
+    background-color: var(--black-10);
+    border-radius: 8px;
+}
+
+.thumbnailsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+    font-size: 26px;
+    margin: 0%;
+}

@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    background-color: var(--black-12);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imageContainer{
+    display: flex;
+    width: 52px;
+    height: 52px;
+    background-color: var(--black-08);
+    border: 2px solid var(--black-12);
+    border-radius: 8px;
+}
+
+.image{
+    margin: auto;
+}
+
+.heading{
+    margin-left: 4%;
+}

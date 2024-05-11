@@ -4,7 +4,9 @@ import { ButtonData } from '../../buttons/simple-button/simple-button.component'
 
 export interface BannerData {
     headingText: string,
-    descriptionText: string
+    descriptionText: string,
+    buttonText: string,
+    buttonLink: string
 }
 
 @Component({

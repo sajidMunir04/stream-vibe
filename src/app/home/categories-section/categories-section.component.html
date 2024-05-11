@@ -1,19 +1,17 @@
-<div>
+<div class="container">
     <div>
         <div>
-            <h2>Explore our wide variety of categories</h2>
-            <p>Whether you're looking for a comedy to make you laugh, a drama 
-                to make you think, or a documentary to learn something new</p>
+            <app-section-header [headerData]="headerData"></app-section-header>
         </div>
         <div>
-            
+
         </div>
     </div>
-    <div>
-        <app-movie-classification-card [classificationData]="movieDataOne"></app-movie-classification-card>
-        <app-movie-classification-card [classificationData]="movieDataTwo"></app-movie-classification-card>
-        <app-movie-classification-card [classificationData]="movieDataThree"></app-movie-classification-card>
-        <app-movie-classification-card [classificationData]="movieDataFour"></app-movie-classification-card>
-        <app-movie-classification-card [classificationData]="movieDataFive"></app-movie-classification-card>
+    <div class="contentContainer">
+        <app-movie-classification-card class="classificationCard" [classificationData]="movieDataOne"></app-movie-classification-card>
+        <app-movie-classification-card class="classificationCard" [classificationData]="movieDataTwo"></app-movie-classification-card>
+        <app-movie-classification-card class="classificationCard" [classificationData]="movieDataThree"></app-movie-classification-card>
+        <app-movie-classification-card class="classificationCard" [classificationData]="movieDataFour"></app-movie-classification-card>
+        <app-movie-classification-card class="classificationCard" [classificationData]="movieDataFive"></app-movie-classification-card>
     </div>
 </div>

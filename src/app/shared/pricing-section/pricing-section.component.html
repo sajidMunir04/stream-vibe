@@ -1,4 +1,4 @@
-<div>
+<div class="container">
     <div>
         <div>
             <app-section-header [headerData]="headerData"></app-section-header>
@@ -7,9 +7,9 @@
 
         </div>
     </div>
-    <div>
-        <app-price-card [cardData]="cardOneData"></app-price-card>
-        <app-price-card [cardData]="cardTwoData"></app-price-card>
-        <app-price-card [cardData]="cardThreeData"></app-price-card>
+    <div class="contentSection">
+        <app-price-card class="priceCard" [cardData]="cardOneData"></app-price-card>
+        <app-price-card class="priceCard" [cardData]="cardTwoData"></app-price-card>
+        <app-price-card class="priceCard" [cardData]="cardThreeData"></app-price-card>
     </div>
 </div>

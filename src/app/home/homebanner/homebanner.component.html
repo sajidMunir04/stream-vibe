@@ -117,14 +117,15 @@
         </div>
     </div>
     <div class="contentSection">
-        <h1>The Best Streaming Experience</h1>
-        <p>StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, 
+        <div class="contentContainer">
+            <h1 class="headingText">The Best Streaming Experience</h1>
+            <p>StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, 
             anytime, anywhere. With StreamVibe, you can enjoy a wide variety of content, including the latest 
             blockbusters, classic movies, popular TV shows, and more. You can also create your own watchlists, 
             so you can easily find the content you want to watch.</p>
-        <div>
-            <img src="assets/images/homebanner/play.svg"/>
-            <a href="#">Start Watching Now</a>
+            <div class="buttonContainer">
+                <app-red-media-button [buttonData]="mediaButtonData"></app-red-media-button>
+            </div>
         </div>
     </div>
 </div>

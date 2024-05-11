@@ -6,7 +6,7 @@ import { CategoriesSectionComponent } from "./home/categories-section/categories
 import { StreamingSectionComponent } from "./home/streaming-section/streaming-section.component";
 import { FaqSectionComponent } from "./shared/faq-section/faq-section.component";
 import { PricingSectionComponent } from "./shared/pricing-section/pricing-section.component";
-import { PromotionalBannerComponent } from "./shared/promotional-banner/promotional-banner.component";
+import { BannerData, PromotionalBannerComponent } from "./shared/promotional-banner/promotional-banner.component";
 import { FooterComponent } from "./shared/footer/footer.component";
 
 @Component({
@@ -18,4 +18,11 @@ import { FooterComponent } from "./shared/footer/footer.component";
 })
 export class AppComponent {
   title = 'Streaming Service';
+
+  bannerData : BannerData ={
+    headingText: 'Start your free trial today!',
+    descriptionText: 'This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.',
+    buttonText: 'Start a Free Trial',
+    buttonLink: '#'
+  }
 }

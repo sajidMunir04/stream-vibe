@@ -1,4 +1,4 @@
-<div>
+<div class="container">
     <div>
         <div>
             <app-section-header [headerData]="headerData"></app-section-header>
@@ -7,14 +7,18 @@
             
         </div>
     </div>
-    <div>
-        <app-faq-element [questionData]="questionOne"></app-faq-element>
-        <app-faq-element [questionData]="questionTwo"></app-faq-element>
-        <app-faq-element [questionData]="questionThree"></app-faq-element>
-        <app-faq-element [questionData]="questionFour"></app-faq-element>
-        <app-faq-element [questionData]="questionFive"></app-faq-element>
-        <app-faq-element [questionData]="questionSix"></app-faq-element>
-        <app-faq-element [questionData]="questionSeven"></app-faq-element>
-        <app-faq-element [questionData]="questionEight"></app-faq-element>
+    <div class="contentSection">
+        <div class="questionSection">
+            <app-faq-element [questionData]="questionOne"></app-faq-element>
+            <app-faq-element [questionData]="questionTwo"></app-faq-element>
+            <app-faq-element [questionData]="questionThree"></app-faq-element>
+            <app-faq-element [questionData]="questionFour"></app-faq-element>
+        </div>
+        <div class="questionSection">
+            <app-faq-element [questionData]="questionFive"></app-faq-element>
+            <app-faq-element [questionData]="questionSix"></app-faq-element>
+            <app-faq-element [questionData]="questionSeven"></app-faq-element>
+            <app-faq-element [questionData]="questionEight"></app-faq-element>
+        </div>
     </div>
 </div>

@@ -1,15 +1,15 @@
-<div>
+<div class="container">
     <div>
-        <h3>{{ cardData.planName }}</h3>
-        <p>{{ cardData.planDescription }}</p>
-        <p>{{ cardData.planPrice }}</p>
+        <h3 class="heading">{{ cardData.planName }}</h3>
+        <p class="description">{{ cardData.planDescription }}</p>
+        <p><span class="price">${{ cardData.planPrice }}</span> /month</p>
     </div>
-    <div>
-        <div>
-            <app-simple-button [buttonData]="buttonOne"></app-simple-button>
+    <div class="buttonsContainer">
+        <div class="button">
+            <app-simple-button class="buttonComponent" [buttonData]="buttonOne"></app-simple-button>
         </div>
-        <div>
-            <app-colored-button [buttonData]="buttonTwo"></app-colored-button>
+        <div class="button">
+            <app-colored-button class="buttonComponent" [buttonData]="buttonTwo"></app-colored-button>
         </div>
     </div>
 </div>

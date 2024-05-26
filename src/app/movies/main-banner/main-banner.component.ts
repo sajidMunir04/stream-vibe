@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './main-banner.component.css'
 })
 export class MainBannerComponent {
-
+  
 }

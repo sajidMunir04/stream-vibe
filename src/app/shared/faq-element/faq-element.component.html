@@ -4,10 +4,10 @@
     </div>
     <div class="content">
         <p class="question">{{ questionData.question }}</p>
-        <p>{{ questionData.answer }}</p>
+        <p *ngIf='isClicked'>{{ questionData.answer }}</p>
     </div>
-    <div>
-        <p>+</p>
-        <p>-</p>
+    <div (click)='handleClick()'>
+        <p class="question-status-text"  *ngIf='!isClicked'>+</p>
+        <p class="question-status-text"  *ngIf='isClicked'>-</p>
     </div>
 </div>

@@ -1,11 +1,10 @@
 .container{
     width: 100%;
-    height: max-content;
-    display: grid;
+    height: 800px;
 }
 
 .thumbnailsContainer{
-    grid-area: 1 / 1 / 2 / 2;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -47,12 +46,10 @@
 
 
 .backgroundSection{
-    grid-area: 1 / 1 / 2 / 2;
-    display: grid;
+    z-index: -1;
 }
 
 .contentSection{
-    grid-area: 1 / 1 / 2 / 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +63,9 @@
 
 
 .symbolContainer{
-    display: flex;flex-direction: row;
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0% var(--side-padding);
@@ -86,4 +85,18 @@
 .logo {
     max-width: 100%;
     max-height: 100%;
+}
+
+@media (max-width: 1100px) {
+
+    .contentContainer{
+        width: 100%;
+    }
+    .headingText{
+        font-size: 28px;
+    }
+
+    .buttonContainer{
+        width: 60%;
+    }
 }

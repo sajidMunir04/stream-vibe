@@ -3,6 +3,10 @@
     width: 100%;
     background-color: var(--black-10);
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .buttonsContainer{
@@ -28,10 +32,18 @@
     font-family: Manrope-Bold;
     font-size: 24px;
     color: var(--white);
+    margin: 0%;
+    height: 16%;
 }
 
 .price{
     font-family: Manrope-SemiBold;
     font-size: 36px;
     color: var(--white);
+    margin: 0%;
+    height: 18%;
+}
+
+.description{
+    height: 80px;
 }

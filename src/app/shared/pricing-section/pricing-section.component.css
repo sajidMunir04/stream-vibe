@@ -12,3 +12,15 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+@media (max-width: 700px) {
+    .contentSection{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .priceCard{
+        width: 100%;
+    }
+}

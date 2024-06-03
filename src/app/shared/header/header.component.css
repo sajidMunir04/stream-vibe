@@ -28,8 +28,40 @@ a{
     color: var(--grey-75);
 }
 
+.buttonsContainer{
+
+}
+
+.navButton{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    background-color: var(--black-10);
+    display: none;
+}
+
+.btnImage{
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}
+
 button{
     background: none;
     padding: 0%;
     border: none;
+}
+
+@media (max-width: 1100px) {
+    nav{
+        display: none;
+    }
+
+    .buttonsContainer{
+        display: none;
+    }
+
+    .navButton{
+        display: flex;
+    }
 }
